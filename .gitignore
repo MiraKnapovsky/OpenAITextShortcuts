@@ -1,0 +1,20 @@
+# Local credentials and settings must never be committed.
+*.dpapi
+api-key*
+settings.json
+.env
+.env.*
+*.pem
+*.pfx
+*.key
+# Generated binaries, diagnostics and local assets.
+*.exe
+*.dll
+*.pdb
+*.log
+keyboard-diagnostic.json
+bin/
+obj/
+.vs/
+work/
+outputs/
